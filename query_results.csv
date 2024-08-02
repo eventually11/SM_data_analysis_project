@@ -1,0 +1,11 @@
+id,order_id,tenant,flow,sender,hub,dispatch_pool,vehicle_type,start_time,end_time,title,route_description,tags,overview,content,type,start,end,service_fee,start_task_validation,end_task_validation,status_group
+1,5872,936,16,aX5ckq,8W,15,"""wo""",2020-06-27 12:59:05,2023-06-25 21:04:18,p,8W,1Ef8vtmpgz5,4HRMK,j2f,"""65qa3""",Y,4HRMK,1.10,aDgxPTK,5O,9
+2,3722,1,74,9BK,Ot,4,"""qDya""",2021-08-14 08:52:42,2021-08-14 08:52:42,T,DCgtPecY,cPZt1sDVSw6jflljg,JwwR,QPgin4V2px3G,"""ogWq2tzrkBeD1TF7qD""",nTI,c8B4zDWvTuE,1.90,X,DCgtPecY,4
+3,6287,83,50,vmjru6WcKl,SiN1zZPxigsj0eWnnz,17,"""tATEbY9CT""",2022-07-09 23:41:54,2020-12-21 03:53:01,i,ej,ReHHXipUD1,XEP6C,S9,"""vW8""",dRTz1SJA,FJazp3t,1.50,67gl,Ebk9LqPFh,3
+4,3722,1,74,9BK,Ot,4,"""qDya""",2021-08-14 08:52:42,2022-12-01 12:46:42,T,DCgtPecY,cPZt1sDVSw6jflljg,JwwR,QPgin4V2px3G,"""ogWq2tzrkBeD1TF7qD""",nTI,c8B4zDWvTuE,1.90,X,FWIsav,4
+5,5872,936,16,aX5ckq,p,15,"""wo""",2023-06-25 21:04:18,2023-06-25 21:04:18,p,8W,1Ef8vtmpgz5,4HRMK,j2f,"""65qa3""",Y,4HRMK,1.10,aDgxPTK,5O,9
+6,426,380,3,x,pPzoLr1l2BtGU,33,"""vWuGTGVeLSnG9""",2020-10-23 14:18:00,2020-10-23 14:18:00,T,aCA,E1mk,eNBC,T,"""NNZp""",c,pPzoLr1l2BtGU,0.01,8tKioTY,k,10
+7,3959,833,57,OG,5JqWJfEO7B,42,"""j23nMrFjP0zhiwsNStS1""",2022-11-19 19:05:41,2022-11-19 19:05:41,z,NGJE,7,rujA5,2RxF,"""OO0DWfMma""",kp,g,0.01,rSCWBdUIGdJgfdPCsNW,vPGkNKJm,8
+8,1,1,1,0,0,1,"""0""",2020-01-01 00:00:00,2020-01-01 00:00:00,0,0,0,0,0,"""0""",0,0,10000.00,0,0,1
+9,2398,750,76,Hee0n,6O,1,"""SHRSc9i""",2023-12-30 00:09:28,2023-12-30 00:09:28,j,uK,gdt93Nyfhr3Wo,d,yaxC6S,"""NrQ52hY""",NrQ52hY,Zrc2Qv94XcS43a,0.50,IT0,Wj2gLbI,1
+10,2018,291,79,4iBO0BCli0rw,DtXuLmO89uMip,86,"""9Xu96""",2024-05-15 08:33:09,2024-05-15 08:33:09,bgiQ,4iBO0BCli0rw,WS69VtBB,NmDKNp,Yz5lUUFGwr6yr4J,"""4iBO0BCli0rw""",soem,4iBO0BCli0rw,1.90,ki,fZ,1
