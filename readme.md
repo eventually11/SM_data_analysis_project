@@ -47,9 +47,9 @@ Order collection----Task distribution-----Work completion
 ## Relationship
 The order id is unique.
 
-An order may has more than one tasks.
+An order may have more than one tasks.
 
-A sender has only one work id but may included more than one tasks.
+A sender has only one work id but may contain more than one tasks.
 
 
 # Content
