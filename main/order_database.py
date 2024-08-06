@@ -49,7 +49,7 @@ class OrderDatabase:
             queries_file=file_path,
             csv_file_path='query_results_saas_partner_order.csv'
         )
-        executor.execute_sql_from_file()
+        executor.execute_queries_from_file
 
 
 if __name__ == "__main__":
