@@ -24,9 +24,18 @@ saas_work_order
     
   
 ## Table description
+
 saas_partner_order: Main order table, contains each order information 
 
 saas_partner_order_type: Dim table, order type
+
+saas_partner_task：Represents individual tasks within a partner order. Each task details the specific actions required
+
+saas_partner_task_event_log：Logs events and status changes for tasks
+
+saas_partner_task_partner_fee：Tracks financial details specific to the task 
+
+saas_partner_task_validation_step： Details validation steps
 
 saas_work_order: work order detials, each person each delivery
 
