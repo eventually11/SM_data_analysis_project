@@ -1,5 +1,5 @@
-## Data Introduction
-# Table Structure
+# Data Introduction
+## Table Structure
 saas_partner_order.d.ts
 
     saas_partner_order
