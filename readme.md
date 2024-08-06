@@ -9,11 +9,14 @@ saas_partner_order.d.ts
 
     
   
+## Table description
+saas_partner_order: Main order table  
 
-saas_partner_orderOrder table 
+saas_partner_order_type:
 
 
-Process:
+## Process
+Order collection----Task distribution-----Work completion
 
 
 Relationship
