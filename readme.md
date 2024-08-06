@@ -39,9 +39,11 @@ Order collection----Task distribution-----Work completion
 The order id is unique.
 
 An order may has more than one tasks.
+
 A sender has only one work id but may included more than one tasks.
 
 
 # Content
 mysql_conn: write your query into queries.sql then run the mysql_conn. 
+
 It will generate a query result query_results.csv 
