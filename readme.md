@@ -50,6 +50,7 @@ The order id is unique.
 An order may have more than one tasks.
 
 A sender has only one work id but may contain more than one tasks.
+![image](https://github.com/eventually11/SM_data_analysis_project/blob/main/SM_ERD.jpg)
 
 
 # Content
