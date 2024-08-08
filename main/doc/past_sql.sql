@@ -92,3 +92,91 @@ CREATE TABLE saas_partner_order (
 
 select * from sm.saas_partner_order;
 
+
+
+CREATE TABLE sm.saas_work_order (
+    work_id INT PRIMARY KEY, 
+    tenant INT, -- tenant id
+
+    sender VARCHAR(500), -- saas_sender type
+
+    flow VARCHAR(500), -- saas_flow type
+
+    hub VARCHAR(500), -- saas_hub type
+
+    zone INT, -- zone ID
+
+    start_date DATE, -- pickup date
+    start_time VARCHAR(10), -- pickup time or time range
+    end_date DATE, -- delivery date
+    end_time VARCHAR(10), -- delivery time or time range
+
+    start VARCHAR(500), -- common_simple_contact or common_address or sm_sender_address type
+    end VARCHAR(500), -- common_simple_contact or common_address or sm_sender_address type
+
+    items VARCHAR(500), -- saas_work_order_item_basic_box or saas_work_order_item_basic_description type
+
+    `references` VARCHAR(500), -- saas_order_reference type
+
+    fee VARCHAR(500), -- saas_work_order_fee_basic_parcel or saas_work_order_fee_basic_parcel_item type
+
+    reviewed VARCHAR(20), -- common_yn_not_applicable type
+
+    scheduled_time TIMESTAMP, -- TYPE_TIMESTAMP type
+    auto_publish_time TIMESTAMP, -- TYPE_TIMESTAMP type
+
+    status_code VARCHAR(20), -- saas_work_order_status type
+
+    estimation VARCHAR(500), -- saas_work_order_estimation type
+    distance VARCHAR(500), -- saas_work_order_distance type
+
+    channel VARCHAR(20) -- saas_work_order_channel_type type
+);
+
+
+
+
+CREATE TABLE saas_partner_task (
+    task_id INT PRIMARY KEY, -- task id
+    tenant INT, -- tenant id
+
+    order INT, -- partner order id, optional
+
+    sender VARCHAR(500), -- sender id
+
+    hub INT, -- hub managing the task
+
+    zone VARCHAR(50), -- zone id or postal code, optional
+
+    flow INT, -- flow id
+
+    task_pool INT, -- task pool id
+
+    partner INT, -- partner id
+
+    title VARCHAR(255), -- task title
+
+    content TEXT, -- content of the task
+
+    date DATE, -- task date
+
+    time_slot VARCHAR(50), -- time slot for the task, optional
+
+    type VARCHAR(50), -- task type
+
+    service_time INT, -- service time, default is 0
+
+    start VARCHAR(500), -- ds_start_address type, stored as VARCHAR
+    end VARCHAR(500), -- ds_end_address type, stored as VARCHAR
+
+    service_fee VARCHAR(500), -- common_service_fee type, stored as VARCHAR
+
+    items VARCHAR(500), -- saas_work_order_item_basic_box or saas_work_order_item_basic_description type, stored as VARCHAR
+
+    start_task_validation VARCHAR(500), -- saas_flow_standard_task_validation_sequence or saas_flow_tenant_task_validation_sequence type, stored as VARCHAR
+    end_task_validation VARCHAR(500), -- saas_flow_standard_task_validation_sequence or saas_flow_tenant_task_validation_sequence type, stored as VARCHAR
+
+    status_code VARCHAR(50), -- saas_partner_task_status type
+
+    status_group VARCHAR(50) -- saas_partner_task_status_group type
+);
