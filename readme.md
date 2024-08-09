@@ -1,3 +1,8 @@
+- [Data Introduction](#Data Introduction)
+- [Project Content](#Project Content)
+
+
+
 # Data Introduction
 ## Table Structure
 saas_partner_order.d.ts
@@ -53,7 +58,11 @@ A sender has only one work id but may contain more than one tasks.
 ![image](https://github.com/eventually11/SM_data_analysis_project/blob/main/SM_ERD.jpg)
 
 
-# Content
+# Project Content
 mysql_conn: write your query into queries.sql then run the mysql_conn. 
 
 It will generate a query result query_results.csv 
+
+
+
+# Project scope
