@@ -62,15 +62,15 @@ A sender has only one work id but may contain more than one tasks.
 
 
 # Project Content
-mysql_conn: write your query into queries.sql then run the mysql_conn. 
+-mysql_conn: write your query into queries.sql then run the mysql_conn. 
 
 It will generate a query result query_results.csv 
 
-data generation: generation fake data
+-data generation: generation fake data
 
-OSRM API：Return distance information
+-OSRM API：Return distance information
 
-open street API : 
+-open street API : address search
 
 
 
