@@ -75,16 +75,16 @@ open street API :
 
 
 # Project scope
-Build a visual dashboard to show the important metrics.
+- Build a visual dashboard to show the important metrics.
 
-Order volume detection: The daily order volume needs to show three peaks throughout the day; otherwise, it indicates a potential issue with the system or the business operations
+- Order volume detection: The daily order volume needs to show three peaks throughout the day; otherwise, it indicates a potential issue with the system or the business operations
 
-Delivery metrics detection: The delivery distance and time for orders with the same starting and ending points should follow a normal distribution. If these metrics do not conform to a normal distribution, it could indicate a potential issue.
+- Delivery metrics detection: The delivery distance and time for orders with the same starting and ending points should follow a normal distribution. If these metrics do not conform to a normal distribution, it could indicate a potential issue.
 
-Cost analysis: Calculate the delivery cost for each order based on the distance, time, and fee fields to identify high-cost orders
+- Cost analysis: Calculate the delivery cost for each order based on the distance, time, and fee fields to identify high-cost orders
 
-courier performace analysis：Through delivery time, order completion rate, customer feedback to hierarchy level.
+- courier performace analysis：Through delivery time, order completion rate, customer feedback to hierarchy level.
 
-Predicting Canceled and Failed Orders：Unsuccessful orders, such as canceled or failed deliveries, can increase operational costs. To mitigate this, we can develop predictive models to identify problematic orders in advance.
+- Predicting Canceled and Failed Orders：Unsuccessful orders, such as canceled or failed deliveries, can increase operational costs. To mitigate this, we can develop predictive models to identify problematic orders in advance.
 
 
