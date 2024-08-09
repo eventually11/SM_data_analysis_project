@@ -1,5 +1,5 @@
-- [Data Introduction](#Data Introduction)
-- [Project Content](#Project Content)
+- [Data Introduction](#data-introduction)
+- [Project Content](#project-content)
 
 
 
