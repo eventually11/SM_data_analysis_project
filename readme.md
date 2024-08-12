@@ -72,7 +72,7 @@ It will generate a query result query_results.csv
 
 - open street API : address search
 
-- BI dashboard：https://app.powerbi.com/links/v2SMGMq3WM?ctid=9f248767-8e1a-42f3-836f-c092ab95ff70&pbi_source=linkShare
+- BI dashboard：https://app.powerbi.com/view?r=eyJrIjoiOWI3OWViZTktMWEwYy00OTVlLWI2ODgtNmVjMGU4NGMzMzRmIiwidCI6IjlmMjQ4NzY3LThlMWEtNDJmMy04MzZmLWMwOTJhYjk1ZmY3MCJ9
 
 
 
