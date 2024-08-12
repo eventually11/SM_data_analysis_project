@@ -83,8 +83,18 @@ It will generate a query result query_results.csv
 
 - Cost analysis: Calculate the delivery cost for each order based on the distance, time, and fee fields to identify high-cost orders
 
-- courier performace analysis：Through delivery time, order completion rate, customer feedback to hierarchy level.
+- courier performace analysis：Through delivery time, order completion rate, customer feedback to hierarchy level.if the delivery time is too long, it could be a potential issue.
 
 - Predicting Canceled and Failed Orders：Unsuccessful orders, such as canceled or failed deliveries, can increase operational costs. To mitigate this, we can develop predictive models to identify problematic orders in advance.
+
+
+- Map visualization Order heatmap
+
+- food-delivery operation review  real-time dashboard
+
+- how many order is waiting for partner to accept
+- how many order is waiting for courier to pick up
+- how many order is on the way
+- how many order is delivered
 
 
