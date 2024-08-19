@@ -100,3 +100,13 @@ It will generate a query result query_results.csv
 - how many order is delivered
 
 
+
+# Overall Flow of the Project
+
+This module contains the analytical tools and methods for data monitoring, prediction, alerting, and visualization. It uses the data stored in SQLite and applies various analytical techniques to derive insights, monitor trends, and forecast future outcomes.
+
+- Define Data Structure (MockOrderDataStructured): Establishes the fields, types, and rules for the data.
+- Generate Data (MockOrderDataGenerator): Creates synthetic data according to the defined structure.
+- Import Data (MockOrderDataImporter): Inserts the generated data into a SQLite database.
+- Analyze Data (SM_Data_Analysis_Project): Performs monitoring, alerting, prediction, and visualization based on the stored data.
+
