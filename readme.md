@@ -76,7 +76,7 @@ It will generate a query result query_results.csv
 
 
 
-# Project scope
+# Project Scope
 - Build a visual dashboard to show the important metrics.
 
 - Order volume detection: The daily order volume needs to show three peaks throughout the day; otherwise, it indicates a potential issue with the system or the business operations
@@ -110,7 +110,7 @@ This module contains the analytical tools and methods for data monitoring, predi
 - Import Data (MockOrderDataImporter): Inserts the generated data into a SQLite database.
 - Analyze Data (SM_Data_Analysis_Project): Performs monitoring, alerting, prediction, and visualization based on the stored data.
 
-## Related git
+## Related Git
 - MockOrderDataStructured: https://github.com/eventually11/MockOrderDataStructured
 
 This module is responsible for defining the structure of the data, including the fields and data types. The configuration file could be changed for different creation.
