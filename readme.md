@@ -110,3 +110,9 @@ This module contains the analytical tools and methods for data monitoring, predi
 - Import Data (MockOrderDataImporter): Inserts the generated data into a SQLite database.
 - Analyze Data (SM_Data_Analysis_Project): Performs monitoring, alerting, prediction, and visualization based on the stored data.
 
+## Relationship
+
+
+## Description
+MockOrderDataStructured:
+This module is responsible for defining the structure of the data, including the fields and data types. The configuration file could be changed for different creation.
