@@ -78,8 +78,11 @@ It will generate a query result query_results.csv
 ![image](https://github.com/eventually11/SM_data_analysis_project/blob/main/daily%20monitoring.png)
 
 The BI dashboard shown in the images can be described as follows:
+
     1. Order Overview Dashboard:Displays key metrics like update time, order volume, YTD orders, and completion rate.
+    
     2. Delivery Range and Order Distribution Map: This heatmap visualizes delivery ranges and order density, highlighting high-activity zones.
+    
     3. Daily Order Performance Dashboard:Includes order status breakdown, hourly distribution, order volume by status, and service fee comparisons across different delivery stages.
 
 # Project Scope
