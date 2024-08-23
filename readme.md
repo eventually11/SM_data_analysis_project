@@ -75,7 +75,7 @@ It will generate a query result query_results.csv
 - BI dashboard：https://app.powerbi.com/view?r=eyJrIjoiOWI3OWViZTktMWEwYy00OTVlLWI2ODgtNmVjMGU4NGMzMzRmIiwidCI6IjlmMjQ4NzY3LThlMWEtNDJmMy04MzZmLWMwOTJhYjk1ZmY3MCJ9
 ![image](https://github.com/eventually11/SM_data_analysis_project/blob/main/overview.png)
 ![image](https://github.com/eventually11/SM_data_analysis_project/blob/main/map.png)
-![image](https://github.com/eventually11/SM_data_analysis_project/blob/main/daily monitoring.png)
+![image](https://github.com/eventually11/SM_data_analysis_project/blob/main/daily_monitoring.png)
 
 
 # Project Scope
